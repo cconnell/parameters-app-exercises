@@ -1,0 +1,10 @@
+<h1>Welcome to the number guessing game!</h1>
+
+<h2>Enter your guess in the box below.</h2>
+
+<%= form_tag 'submit_form', method: :post do %>
+
+<%= text_field_tag :message %>
+<%= submit_tag 'Enter my guess' %>
+
+  <% end %>
